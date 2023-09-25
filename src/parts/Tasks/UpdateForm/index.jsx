@@ -39,7 +39,7 @@ function UpdateForm(props) {
               </Link>
             </div>
             <form
-              className="flex flex-col gap-4 bg-[#ffffff] border-[1px] border-gray-300 md:mt-12 mt-6 rounded-lg md:p-10"
+              className="flex flex-col gap-4 bg-[#ffffff] border-[1px] border-gray-300 md:mt-12 mt-6 rounded-lg md:p-10 p-5"
               onSubmit={handleUpdateData}
             >
               <div className="flex flex-col justify-start md:grid grid-cols-2 place-items-center w-full gap-4">
@@ -192,7 +192,7 @@ function UpdateForm(props) {
             </form>
 
             <form
-              className="flex flex-col gap-4 bg-[#ffffff] border-[1px] border-gray-300 md:mt-12 mt-6 rounded-lg md:p-10"
+              className="flex flex-col gap-4 bg-[#ffffff] border-[1px] border-gray-300 md:mt-12 mt-6 rounded-lg md:p-10 p-5"
               onSubmit={handleUpdatePriceData}
             >
               <div className="flex flex-col justify-start md:grid grid-cols-2 place-items-center w-full gap-4">
@@ -225,7 +225,7 @@ function UpdateForm(props) {
             </form>
 
             <form
-              className="flex flex-col gap-4 bg-[#ffffff] border-[1px] border-gray-300  md:mt-12 mt-6 rounded-lg md:p-10"
+              className="flex flex-col gap-4 bg-[#ffffff] border-[1px] border-gray-300  md:mt-12 mt-6 rounded-lg md:p-10 p-5"
               onSubmit={handleUpdateImageData}
             >
               <div className="flex flex-col border-t-2 mt-8 pt-8 gap-5 border-slate-300 w-full">
