@@ -1,0 +1,11 @@
+:root{
+  --color-blk : #48494F;
+  --color-white-secondary : #F6F8FD;
+}
+body{
+  background-color: var(--color-white-secondary);
+}
+*{
+  font-family: "Mulish",sans-serif;
+  color: var(--color-blk);
+}
